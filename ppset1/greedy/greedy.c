@@ -15,48 +15,49 @@ int main(void){
     // float dime = .10;
     // float nickel = .05;
     // float penny = .01;
-    int quarter = 25;
-    int dime = 10;
-    int nickel = 5;
-    int penny = 1;    
-    int bucket = 0;
+    // int quarter = 25;
+    // int dime = 10;
+    // int nickel = 5;
+    // int penny = 1;    
+    // int bucket = 0;
     
     
-                // printf(quarte);
+    // do
+    // {
+    //     printf("how much are you owed \n$");
+    //     change = get_float();        
+    // }
     
-    do
-    {
-        printf("how much are you owed \n$");
-        change = get_float();        
-    }
+    // while(change <= 0);
+    //     change = round(change*100);
     
-    while(change <= 0);
-        change = round(change*100);
-    
-    while (change >= quarter)
-    {
-            change  -= quarter;
-            bucket++;
+    // while (change >= quarter)
+    // {
+    //         change  -= quarter;
+    //         bucket++;
 
-    }
-        while (change >= dime)
-    {
-            change  -= dime;
-            bucket++;
+    // }
+    //     while (change >= dime)
+    // {
+    //         change  -= dime;
+    //         bucket++;
 
-    }
-        while (change >= nickel)
-    {
-            change  -= nickel;
-            bucket++;
+    // }
+    //     while (change >= nickel)
+    // {
+    //         change  -= nickel;
+    //         bucket++;
 
-    }  
-        while (change >= penny)
-    {
-            change  -= penny;
-            bucket++;
+    // }  
+    //     while (change >= penny)
+    // {
+    //         change  -= penny;
+    //         bucket++;
 
-    }      
-    printf("%i\n",bucket);
+    // }      
+    // printf("%i\n",bucket);
+    
+    printf("how much are you owed\n");
+     change = get_float();
        
 }
