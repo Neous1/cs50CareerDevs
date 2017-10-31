@@ -21,6 +21,9 @@ int main(void){
     int penny = 1;    
     int bucket = 0;
     
+    
+                // printf(quarte);
+    
     do
     {
         printf("how much are you owed \n$");
