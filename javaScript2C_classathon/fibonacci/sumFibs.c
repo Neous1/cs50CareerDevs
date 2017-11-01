@@ -11,7 +11,7 @@ int main(void)
     printf("number please: ");
     num = get_int();
     int result = sumFibs(num);
-    printf(" 14. %d\n", result);
+    printf("The result is : %d\n", result);
     
 }
 
@@ -21,8 +21,8 @@ int sumFibs (int num){
     // sum = get_int();
     while (curFib <= num)
     {        
-        printf(" 24. %d\n", num);
-        printf(" 25. %d\n", curFib);
+        // printf(" 24. %d\n", num);
+        // printf(" 25. %d\n", curFib);
         if(curFib % 2 != 0)
         {
             sum += curFib; 
