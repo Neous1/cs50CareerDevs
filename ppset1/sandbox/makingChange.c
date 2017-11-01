@@ -6,3 +6,4 @@ int main (void)
 {
     printf("How much are you owed ?\n");
      change = get_float();
+}
