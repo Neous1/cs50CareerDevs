@@ -1,4 +1,4 @@
-cd∂#include <stdio.h>
+#include <stdio.h>
 #include <cs50.h>
 
 float change;
