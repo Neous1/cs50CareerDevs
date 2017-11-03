@@ -33,7 +33,7 @@ int sumPrimes(int num)
       }
       if (i == j){
         sum += i;
-            printf(" 43 : %d\n", i);
+            // printf(" 43 : %d\n", i);
       }
     }
 
