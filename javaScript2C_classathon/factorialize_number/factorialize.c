@@ -1,52 +1,33 @@
-#include <stdio.h>
-#include <cs50.h>
+#include<stdio.h>
+#include<cs50.h>
 
-// int num; 
+//declare external func
+long long factorialize(int num);
 
-// int factorialize(num);
+int main(void)
+{    // int num = 0;
 
-// int main(void){
-//     printf("Give me a number");
-//     num = int_get();
-//     factorialize(num)
-// }
+    printf("Please give us a number: ");
+    int num = get_int();
+    int result = factorialize(num);
+    printf("%d\n", result);
 
-// int factorialize(long long num){
-//     if(num == 0){
-//         return 1;
-//     }
-    
-// }
-
-
-int main (void){
-    printf("number please\n");
-    // int num = get_int();
-    printf(factorialize(num= get_int());
-    
 }
-
-int factorialize(num) {
-        if (num == 0){
-        return 1;
-    }
-    for (int i = num -1; i >=1; i--){
-        num *=1;
-    }
-    
-    return num;
-}
-
-//declare main function
-int main(void){
-    
-}
-//prompt user for a number
-//call external function to 
-
-
 //declare external funct pass it the number given by users
 
-// avoid multiplying by 0 by returning 1 if user enters 0
+long long factorialize(int num)
+{
+        // avoid multiplying by 0 by returning 1 if user enters 0
 
-// loop thr num starting at num -1 and decrease num til num -1
+    if (num == 0)
+    {
+        return 1; 
+    }
+    // loop thr num starting at num -1 and decrease num til num -1
+
+    for (int i = num -1 ; i >=1; i --)
+    {
+        num *= i;
+    }
+    return num; 
+}
